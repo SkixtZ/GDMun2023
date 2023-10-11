@@ -1,0 +1,425 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+
+/* @font-face {
+    font-family: 'brown_sugarregular';
+    src: url('assets/fonts/brown_sugar-webfont.woff2') format('woff2'),
+        url('assets/fonts/brown_sugar-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+
+
+.navitem:hover {
+    scale: 120%;
+    transition-duration: 100ms;
+}
+
+.head{
+    background-color: #191919;
+    height: 4em;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 25px; 
+    align-items: center;
+}
+
+.head div{
+    display: flex;
+    gap: 7.5px;
+    align-items: center;
+}
+
+.head div h1{
+    color: rgb(216, 216, 216);
+    font-size: 20px;
+    margin: 0;
+}
+
+.head nav {
+    margin-right: 4%;
+    display: flex;
+    gap: 100px;
+    background-color: transparent;
+
+}
+
+
+
+.head img {
+    height: 3em;
+    border-radius: 100%;
+}
+
+.register {
+    border-radius: 7px;
+    padding: 5px 12px;
+    background-color: #2f3345;
+    color: white;
+    font-size: 20px;
+    font-size: medium;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+#about {
+    /* background-color: #27242e; */
+    /* background-color: #6587cb; */
+    /* background-color: #232323; */
+    background-color: #191919;
+    /* background: radial-gradient(circle, rgba(82, 76, 76, 1) 15%, rgba(9, 8, 8, 1) 85%); */
+    color: whitesmoke;
+    padding: 3vmin;
+    align-content: center;
+}
+
+#second {
+    min-height: 80vh;
+    /* background-color: #969696; */
+    /* background-color: #ded38a; */
+    /* background-color: #dcca93; */
+    background: transparent;
+    color: white;
+    padding: 50px;
+    border-width: 2px;
+    border-color: white;
+    padding: 2vmin;
+}
+
+#contact {
+    min-height: 80vh;
+    /* background-color: #27242e; */
+    /* background-color: #a5cb7b; */
+    /* background-color: #130c29; */
+    /* background-color: #00010e; */
+    /* background-color: #ded38a; */
+    background: radial-gradient(circle, rgb(44, 44, 44) 1%, rgb(20, 20, 20) 74%);
+    color: aliceblue;
+    padding: 50px;
+    align-content: center;
+}
+
+nav {
+    /* background-color: #c8af8c; */
+    background-color: #191919;
+    color: whitesmoke;
+}
+
+.btn-primary {
+    background-color: #c4922d !important;
+    border-color: #c4922d !important;
+}
+
+.btn-secondary {
+    background-color: #232119 !important;
+    border-color: #232119 !important;
+}
+
+.banner {
+    width: 100%;
+}
+
+.img-cont {
+    position: relative;
+    text-align: center;
+    color: white;
+    min-height: 80vh;
+    max-width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/mun.jpg');
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    /* pointer-events: none; */
+}
+
+#banner {
+    border-radius: 2vmin;
+    width: fit-content;
+    padding: 1vmin;
+    background-color: #19191990;  
+    backdrop-filter: blur(2.5px);
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;    
+  } 
+#banner div:hover {
+  color: black;
+  background: white;
+  transition-duration: 100ms;
+} 
+
+.title h1 {
+    font-size: 50px;
+    font-family: 'Secular One', sans-serif;
+}
+
+.title h4 {
+    font-size: 15px;
+    font-family: 'Secular One', sans-serif;
+}
+
+#register {
+    min-height: 70vh;
+    /* background-color: #1d132e; */
+    /* background-color: #2e1313; */
+    /* background-color: #232323; */
+    background-color: #191919;
+    /* background: radial-gradient(circle, rgba(82, 76, 76, 1) 15%, rgba(9, 8, 8, 1) 85%); */
+    color: aliceblue;
+    padding: 50px;
+    align-content: center;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 900;
+}
+
+#credits {
+    text-align: center;
+    /* background-color: antiquewhite; */
+    background-color: whitesmoke
+}
+
+.navbar-nav {
+    font-family: 'Secular One', sans-serif;
+    font-weight: 100;
+}
+
+.credlink {
+    text-decoration: underline;
+    color: black;
+}
+
+.credlink:hover {
+    color: #3fbfa1;
+}
+
+.btn-success {
+    background-color: #ecc941 !important;
+    border-color: #ecc941 !important;
+    color: #130c29 !important;
+}
+
+@media (max-width: 992px) {
+    #contactbtn {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    #regbtn {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    #homebtn {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .card {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        max-width: none !important;
+    }
+
+    #top {
+        padding: 0% !important;
+    }
+
+    #top2 {
+        width: 100% !important;
+    }
+
+    #day,
+    #hr,
+    #min,
+    #sec {
+        font-size: 2vw;
+    }
+
+    .hidden-mobile img{
+      display: none; 
+    }
+}
+@media (min-width: 768px) {
+    nav.md\:ml-auto.md\:mr-auto.flex.flex-wrap.items-center.text-base.justify-center {
+      gap: 3rem; 
+    }
+  }
+  @media (max-width: 767px) {
+    nav.md\:ml-auto.md\:mr-auto.flex.flex-wrap.items-center.text-base.justify-center {
+      gap: 0.5rem; 
+    }
+  }
+
+#team {
+    min-height: 80vh;
+    background: #2e2e2e;
+    color: aliceblue;
+    align-content: center;
+}
+
+.names {
+    color: #a87a22;
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+
+}
+
+.post {
+    color: #cdba87;
+    font-family: 'Kanit', sans-serif;
+    /* font-style: italic; */
+    font-size: 1.75rem;
+}
+
+#committees {
+    min-height: 190vh;
+    background: radial-gradient(circle, rgb(44, 44, 44) 1%, rgb(20, 20, 20) 74%);
+    /* background: radial-gradient(circle, rgba(82, 76, 76, 1) 15%, rgba(9, 8, 8, 1) 85%); */
+    color: aliceblue;
+    padding: 50px;
+    align-content: center;
+}
+
+#committees .card-img-top {
+    height: auto;
+    width: 30vw !important;
+    align-self: center;
+}
+
+#committees .card {
+    background-color: #201d1c !important;
+    color: #b1b8be;
+    max-width: min-content;
+}
+
+#committees .card-hover-text {
+    display: none;
+}
+
+#committees .card-title a:hover {
+    color: #ded38a;
+}
+
+/* .card:hover .card-text {
+    display: none;
+}
+
+.card:hover .card-hover-text {
+    display: block;
+} */
+
+#committees .card-text {
+    display: none;
+}
+
+#committees .card-hover-text {
+    padding: 10px;
+    display: block;
+}
+
+.point {
+    color: #c4922d;
+    text-decoration: underline;
+}
+
+.card-title {
+    text-align: center;
+}
+
+#committees .card-text {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+th {
+    font-family: 'Russo One', sans-serif;
+}
+
+
+.matrix {
+    min-height: 80vh;
+    background: radial-gradient(circle, rgb(233, 219, 112) 1%, #e0c646 74%);
+    /* background: radial-gradient(circle, rgb(233, 219, 112) 1%, #d2be5b 74%); */
+
+    /* background-color: #27242e; */
+    /* background-color: #a5cb7b; */
+    /* background-color: #130c29; */
+    /* background-color: #00010e; */
+    /* background-color: #cdba87; */
+    color: aliceblue;
+    padding: 50px;
+    align-content: center;
+}
+
+
+.card-title a {
+    color: #b88f7d;
+}
+
+#day,
+#hr,
+#min,
+#sec {
+    font-size: 15px;
+    margin: 10px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 20%;
+    color: #3fbfa1;
+}
+
+.tenetwrap {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#tenet {
+    min-height: 100vh;
+    background-color: #141414;
+    color: aliceblue;
+    padding: 50px;
+    align-content: center;
+
+}
+
+
+
+
+#copy-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation-name: fade-in;
+    animation-duration: 0.5s;
+  }
+  
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
